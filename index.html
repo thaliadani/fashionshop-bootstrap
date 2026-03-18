@@ -6,16 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="shortcut icon" href="./favicon.png" type="image/x-icon">
     <style>
         * {
             user-select: none;
         }
-        h1{
-            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        }
 
         button {
             cursor: pointer;
+        }
+
+        .logo {
+            height: 80px;
         }
 
         img {
@@ -29,110 +31,273 @@
 <body class="bg-dark">
     <header class="bg-light py-4">
         <div class="container d-flex justify-content-center">
-            <h1 class="text-primary fw-bold">FashionShop</h1>
+            <img class="logo" src="./logo.png" alt="logo">
         </div>
     </header>
+
     <div class="container py-5">
         <h2 class="text-center mb-4 text-light">Produtos da Loja</h2>
-            <div class="row">
-                <!-- Card 1 -->
-                <div class="col-md-4 mb-3">
-                    <div class="card border border-2 border-primary">
-                        <figure class="text-center">
-                            <img class="card-img-top py-2 w-100" src="./imagem.jpg" alt="blusa preta">
-                        </figure>
+        <div class="row">
+            <!-- Card 1 -->
+            <div class="col-md-4 mb-3">
+                <div class="card border border-2 border-primary">
+                    <figure class="text-center">
+                        <img class="card-img-top py-2 w-100" src="./imagem.jpg" alt="blusa preta">
+                    </figure>
 
-                        <div class="card-body text-center">
-                            <h5 class="card-title">Blusa Preta</h5>
-                            <h5 class="alert alert-info py-2" role="alert">R$ 40,00</h5>
-                            <a href="#" class="btn btn-primary w-100">Comprar</a>
-                        </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Blusa Preta</h5>
+                        <h5 class="alert alert-info py-2" role="alert">R$ 40,00</h5>
+                        <a href="#" class="btn btn-primary w-100">Comprar</a>
                     </div>
                 </div>
-
-                <!-- Card 2 -->
-                <div class="col-md-4 mb-3">
-                    <div class="card border border-2 border-primary">
-                        <figure class="text-center">
-                            <img class="card-img-top py-2 w-100" src="./imagem2.jpg" alt="calça jeans">
-                        </figure>
-
-                        <div class="card-body text-center">
-                            <h5 class="card-title">Calça Jeans</h5>
-                            <h5 class="alert alert-info py-2" role="alert">R$ 120,00</h5>
-                            <a href="#" class="btn btn-primary w-100">Comprar</a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Card 3 -->
-                <div class="col-md-4 mb-3">
-                    <div class="card border border-2 border-primary">
-                        <figure class="text-center">
-                            <img class="card-img-top py-2 w-100" src="./imagem3.jpg" alt="Moletom Azul">
-                        </figure>
-
-                        <div class="card-body text-center">
-                            <h5 class="card-title">Moletom Azul</h5>
-                            <h5 class="alert alert-info py-2" role="alert">R$ 150,00</h5>
-                            <a href="#" class="btn btn-primary w-100">Comprar</a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Card 4 -->
-                <div class="col-md-4 mb-3">
-                    <div class="card border border-2 border-primary">
-                        <figure class="text-center">
-                            <img class="card-img-top py-2 w-100" src="./imagem4.jpg" alt="Blusa Cappuccino">
-                        </figure>
-
-                        <div class="card-body text-center">
-                            <h5 class="card-title">Blusa Cappuccino</h5>
-                            <h5 class="alert alert-info py-2" role="alert">R$ 50,00</h5>
-                            <a href="#" class="btn btn-primary w-100">Comprar</a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Card 5 -->
-                <div class="col-md-4 mb-3">
-                    <div class="card border border-2 border-primary">
-                        <figure class="text-center">
-                            <img class="card-img-top py-2 w-100" src="./imagem5.jpg" alt="Calça Preta">
-                        </figure>
-
-                        <div class="card-body text-center">
-                            <h5 class="card-title">Calça Preta</h5>
-                            <h5 class="alert alert-info py-2" role="alert">R$ 130,00</h5>
-                            <a href="#" class="btn btn-primary w-100">Comprar</a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Card 6 -->
-                <div class="col-md-4 mb-3">
-                    <div class="card border border-2 border-primary">
-                        <figure class="text-center">
-                            <img class="card-img-top py-2 w-100" src="./imagem6.jpg" alt="Vestido Longo Verde">
-                        </figure>
-
-                        <div class="card-body text-center">
-                            <h5 class="card-title">Vestido Verde</h5>
-                            <h5 class="alert alert-info py-2" role="alert">R$ 450,00</h5>
-                            <a href="#" class="btn btn-primary w-100">Comprar</a>
-                        </div>
-                    </div>
-                </div>
-
             </div>
+
+            <!-- Card 2 -->
+            <div class="col-md-4 mb-3">
+                <div class="card border border-2 border-primary">
+                    <figure class="text-center">
+                        <img class="card-img-top py-2 w-100" src="./imagem2.jpg" alt="calça jeans">
+                    </figure>
+
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Calça Jeans</h5>
+                        <h5 class="alert alert-info py-2" role="alert">R$ 120,00</h5>
+                        <a href="#" class="btn btn-primary w-100">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="col-md-4 mb-3">
+                <div class="card border border-2 border-primary">
+                    <figure class="text-center">
+                        <img class="card-img-top py-2 w-100" src="./imagem3.jpg" alt="Moletom Azul">
+                    </figure>
+
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Moletom Azul</h5>
+                        <h5 class="alert alert-info py-2" role="alert">R$ 150,00</h5>
+                        <a href="#" class="btn btn-primary w-100">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="col-md-4 mb-3">
+                <div class="card border border-2 border-primary">
+                    <figure class="text-center">
+                        <img class="card-img-top py-2 w-100" src="./imagem4.jpg" alt="Blusa Cappuccino">
+                    </figure>
+
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Blusa Cappuccino</h5>
+                        <h5 class="alert alert-info py-2" role="alert">R$ 50,00</h5>
+                        <a href="#" class="btn btn-primary w-100">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 5 -->
+            <div class="col-md-4 mb-3">
+                <div class="card border border-2 border-primary">
+                    <figure class="text-center">
+                        <img class="card-img-top py-2 w-100" src="./imagem5.jpg" alt="Calça Preta">
+                    </figure>
+
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Calça Preta</h5>
+                        <h5 class="alert alert-info py-2" role="alert">R$ 130,00</h5>
+                        <a href="#" class="btn btn-primary w-100">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 6 -->
+            <div class="col-md-4">
+                <div class="card border border-2 border-primary">
+                    <figure class="text-center">
+                        <img class="card-img-top py-2 w-100" src="./imagem6.jpg" alt="Vestido Longo Verde">
+                    </figure>
+
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Vestido Verde</h5>
+                        <h5 class="alert alert-info py-2" role="alert">R$ 450,00</h5>
+                        <a href="#" class="btn btn-primary w-100">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container pb-5">
+        <h2 class="mb-4 text-light">Ofertas da Semana</h2>
+        <div id="carrosselOfertas" class="carousel slide">
+            <div class="carousel-inner">
+
+                <!-- Slide 1 -->
+                <div class="carousel-item active">
+                    <div class="row g-3 d-flex align-items-center">
+                        <div class="col-6 col-md-3">
+                            <div class="card border border-2 border-primary">
+                                <figure class="text-center">
+                                    <img class="card-img-top py-2 w-100" src="./imagem-carrossel1.png" alt="blusa rosa">
+                                </figure>
+
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Blusa Rosa</h5>
+                                    <p class="text-muted text-decoration-line-through">R$ 40,00</p>
+                                    <h5 class="alert alert-success py-2" role="alert">R$ 30,00</h5>
+                                    <a href="#" class="btn btn-primary w-100">Comprar</a>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-6 col-md-3">
+                            <div class="card border border-2 border-primary">
+                                <figure class="text-center">
+                                    <img class="card-img-top py-2 w-100" src="./imagem-carrossel2.jpg"
+                                        alt="calça cargo preta">
+                                </figure>
+
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Calça Cargo</h5>
+                                    <p class="text-muted text-decoration-line-through">R$ 80,00</p>
+                                    <h5 class="alert alert-success py-2" role="alert">R$ 60,00</h5>
+                                    <a href="#" class="btn btn-primary w-100">Comprar</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-6 col-md-3">
+                            <div class="card border border-2 border-primary">
+                                <figure class="text-center">
+                                    <img class="card-img-top py-2 w-100" src="./imagem-carrossel3.png" alt="saia azul">
+                                </figure>
+
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Saia Azul</h5>
+                                    <p class="text-muted text-decoration-line-through">R$ 80,00</p>
+                                    <h5 class="alert alert-success py-2" role="alert">R$ 70,00</h5>
+                                    <a href="#" class="btn btn-primary w-100">Comprar</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-6 col-md-3">
+                            <div class="card border border-2 border-primary">
+                                <figure class="text-center">
+                                    <img class="card-img-top py-2 w-100" src="./imagem-carrossel4.jpg"
+                                        alt="calça jeans">
+                                </figure>
+
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Calça Jeans</h5>
+                                    <p class="text-muted text-decoration-line-through">R$ 150,00</p>
+                                    <h5 class="alert alert-success py-2" role="alert">R$ 130,00</h5>
+                                    <a href="#" class="btn btn-primary w-100">Comprar</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Slide 2 -->
+                <div class="carousel-item">
+                    <div class="row g-3">
+                        <div class="col-6 col-md-3">
+                            <div class="card border border-2 border-primary">
+                                <figure class="text-center">
+                                    <img class="card-img-top py-2 w-100" src="./imagem-carrossel5.jpg" alt="saia preta">
+                                </figure>
+
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Saia Preta</h5>
+                                    <p class="text-muted text-decoration-line-through">R$ 40,00</p>
+                                    <h5 class="alert alert-success py-2" role="alert">R$ 30,00</h5>
+                                    <a href="#" class="btn btn-primary w-100">Comprar</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-6 col-md-3">
+                            <div class="card border border-2 border-primary">
+                                <figure class="text-center">
+                                    <img class="card-img-top py-2 w-100" src="./imagem-carrossel6.jpg"
+                                        alt="blusa preta">
+                                </figure>
+
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Blusa Preta</h5>
+                                    <p class="text-muted text-decoration-line-through">R$ 60,00</p>
+                                    <h5 class="alert alert-success py-2" role="alert">R$ 50,00</h5>
+                                    <a href="#" class="btn btn-primary w-100">Comprar</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-6 col-md-3">
+                            <div class="card border border-2 border-primary">
+                                <figure class="text-center">
+                                    <img class="card-img-top py-2 w-100" src="./imagem-carrossel7.jpg"
+                                        alt="vestido preto">
+                                </figure>
+
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Vestido Preto</h5>
+                                    <p class="text-muted text-decoration-line-through">R$ 250,00</p>
+                                    <h5 class="alert alert-success py-2" role="alert">R$ 200,00</h5>
+                                    <a href="#" class="btn btn-primary w-100">Comprar</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-6 col-md-3">
+                            <div class="card border border-2 border-primary">
+                                <figure class="text-center">
+                                    <img class="card-img-top py-2 w-100" src="./imagem-carrossel8.jpg"
+                                        alt="vestido florido">
+                                </figure>
+
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Vestido Flor</h5>
+                                    <p class="text-muted text-decoration-line-through">R$ 70,00</p>
+                                    <h5 class="alert alert-success py-2" role="alert">R$ 50,00</h5>
+                                    <a href="#" class="btn btn-primary w-100">Comprar</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carrosselOfertas" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carrosselOfertas" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    </div>
+
     </div>
 
     <footer class="bg-light py-4">
         <div class="container d-flex justify-content-center">
-            <span class="text-dark ">&copy; 2026 Todos os direitos reservados.</span>
+            <span class="text-dark ">&copy; 2026 FashionShop. Todos os direitos reservados.</span>
         </div>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
