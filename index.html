@@ -24,6 +24,22 @@
             object-fit: contain;
             height: 300px;
         }
+
+        .carousel .card{
+            height: 100%;
+        }
+
+        .carousel .card-body{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        @media (min-width:344px) and (max-width: 912px){
+            .carousel-inner {
+                width: 100% !important;
+            }
+        }
     </style>
     <title>FashionShop</title>
 </head>
@@ -135,7 +151,7 @@
         <h2 class="mb-4 text-light">Ofertas da Semana</h2>
 
         <div id="carrosselOfertas" class="carousel slide">
-            <div class="carousel-inner">
+            <div class="carousel-inner w-75 mx-auto">
                 <!-- Slide 1 -->
                 <div class="carousel-item active">
                     <div class="row g-3">
@@ -146,9 +162,9 @@
                                 </figure>
 
                                 <div class="card-body text-center">
-                                    <h5 class="card-title">Blusa Rosa</h5>
+                                    <h6 class="card-title">Blusa Rosa</h6>
                                     <p class="text-muted text-decoration-line-through">R$ 40,00</p>
-                                    <h5 class="alert alert-success py-2" role="alert">R$ 30,00</h5>
+                                    <div class="alert alert-success py-2" role="alert">R$ 30,00</div>
                                     <a href="#" class="btn btn-primary w-100">Comprar</a>
                                 </div>
                             </div>
@@ -163,9 +179,9 @@
                                 </figure>
 
                                 <div class="card-body text-center">
-                                    <h5 class="card-title">Calça Cargo</h5>
+                                    <h6 class="card-title">Calça Cargo</h6>
                                     <p class="text-muted text-decoration-line-through">R$ 80,00</p>
-                                    <h5 class="alert alert-success py-2" role="alert">R$ 60,00</h5>
+                                    <div class="alert alert-success py-2" role="alert">R$ 60,00</div>
                                     <a href="#" class="btn btn-primary w-100">Comprar</a>
                                 </div>
                             </div>
@@ -178,9 +194,9 @@
                                 </figure>
 
                                 <div class="card-body text-center">
-                                    <h5 class="card-title">Saia Azul</h5>
+                                    <h6 class="card-title">Saia Azul</h6>
                                     <p class="text-muted text-decoration-line-through">R$ 80,00</p>
-                                    <h5 class="alert alert-success py-2" role="alert">R$ 70,00</h5>
+                                    <div class="alert alert-success py-2" role="alert">R$ 70,00</div>
                                     <a href="#" class="btn btn-primary w-100">Comprar</a>
                                 </div>
                             </div>
@@ -193,9 +209,9 @@
                                 </figure>
 
                                 <div class="card-body text-center">
-                                    <h5 class="card-title">Calça Jeans</h5>
+                                    <h6 class="card-title">Calça Jeans</h6>
                                     <p class="text-muted text-decoration-line-through">R$ 150,00</p>
-                                    <h5 class="alert alert-success py-2" role="alert">R$ 130,00</h5>
+                                    <div class="alert alert-success py-2" role="alert">R$ 130,00</div>
                                     <a href="#" class="btn btn-primary w-100">Comprar</a>
                                 </div>
                             </div>
@@ -214,9 +230,9 @@
                                 </figure>
 
                                 <div class="card-body text-center">
-                                    <h5 class="card-title">Saia Preta</h5>
+                                    <h6 class="card-title">Saia Preta</h6>
                                     <p class="text-muted text-decoration-line-through">R$ 40,00</p>
-                                    <h5 class="alert alert-success py-2" role="alert">R$ 30,00</h5>
+                                    <div class="alert alert-success py-2" role="alert">R$ 30,00</div>
                                     <a href="#" class="btn btn-primary w-100">Comprar</a>
                                 </div>
                             </div>
@@ -229,9 +245,9 @@
                                 </figure>
 
                                 <div class="card-body text-center">
-                                    <h5 class="card-title">Blusa Preta</h5>
+                                    <h6 class="card-title">Blusa Preta</h6>
                                     <p class="text-muted text-decoration-line-through">R$ 60,00</p>
-                                    <h5 class="alert alert-success py-2" role="alert">R$ 50,00</h5>
+                                    <div class="alert alert-success py-2" role="alert">R$ 50,00</div>
                                     <a href="#" class="btn btn-primary w-100">Comprar</a>
                                 </div>
                             </div>
@@ -245,9 +261,9 @@
                                 </figure>
 
                                 <div class="card-body text-center">
-                                    <h5 class="card-title">Vestido Preto</h5>
+                                    <h6 class="card-title">Vestido Preto</h6>
                                     <p class="text-muted text-decoration-line-through">R$ 250,00</p>
-                                    <h5 class="alert alert-success py-2" role="alert">R$ 200,00</h5>
+                                    <div class="alert alert-success py-2" role="alert">R$ 200,00</div>
                                     <a href="#" class="btn btn-primary w-100">Comprar</a>
                                 </div>
                             </div>
@@ -261,9 +277,9 @@
                                 </figure>
 
                                 <div class="card-body text-center">
-                                    <h5 class="card-title">Vestido Flor</h5>
+                                    <h6 class="card-title">Vestido Flor</h6>
                                     <p class="text-muted text-decoration-line-through">R$ 70,00</p>
-                                    <h5 class="alert alert-success py-2" role="alert">R$ 50,00</h5>
+                                    <div class="alert alert-success py-2" role="alert">R$ 50,00</div>
                                     <a href="#" class="btn btn-primary w-100">Comprar</a>
                                 </div>
                             </div>
@@ -278,7 +294,7 @@
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
             </button>
-            
+
             <button class="carousel-control-next" type="button" data-bs-target="#carrosselOfertas" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
